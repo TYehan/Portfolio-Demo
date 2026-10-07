@@ -1,69 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <h1>Tharindu Yehan Bandara</h1>
-    <p>I am a software engineering graduate with an interest in web development and cybersecurity.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="portfolio-header">
+            <div class="profile-placeholder">150 x 150</div>
+            <h1>Tharindu Yehan Bandara</h1>
+            <p>I am a software engineering graduate with an interest in web development and cybersecurity.</p>
 
-    <h2>About Me</h2>
-    <p>I hold a BSc (Hons) in Software Engineering. My projects include web applications and a Wi-Fi security assessment prototype developed for my undergraduate thesis.</p>
+        </header>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>Java</li>
-        <li>React and TypeScript</li>
-        <li>Database development</li>
-        <li>Cybersecurity research</li>
-    </ul>
+        <main>
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <p>I hold a BSc (Hons) in Software Engineering. My projects include web applications and a Wi-Fi security assessment prototype developed for my undergraduate thesis.</p>
++
+            </section>
 
-    <h2>Projects</h2>
-    <table>
-        <tr>
-            <th>Project Name</th>
-            <th>Description</th>
-            <th>Technology Used</th>
-        </tr>
-        <tr>
-            <td>WiFiGuardian</td>
-            <td>An academic prototype for authorised Wi-Fi security assessment</td>
-            <td>Python, PyQt6, Aircrack-ng</td>
-        </tr>
-        <tr>
-            <td>Issue Tracker</td>
-            <td>A full-stack application for tracking issues</td>
-            <td>React, TypeScript, Express, MongoDB</td>
-        </tr>
-        <tr>
-            <td>Student Management System</td>
-            <td>A system for managing student records</td>
-            <td>Java, Spring Boot</td>
-        </tr>
-    </table>
+            <section id="skills" class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>React and TypeScript</li>
+                    <li>Database development</li>
+                    <li>Cybersecurity research</li>
+                </ul>
 
-    <h2>Contact Me</h2>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
+            </section>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+                <div class="table-container">
+                    <table>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Description</th>
+                            <th>Technology Used</th>
+                            <th>Preview</th>
+                        </tr>
+                        <tr>
+                            <td>WiFiGuardian</td>
+                            <td>An academic prototype for authorised Wi-Fi security assessment</td>
+                            <td>Python, PyQt6, Aircrack-ng</td>
+                            <td><div class="project-placeholder">150 x 150</div></td>
+                        </tr>
+                        <tr>
+                            <td>Issue Tracker</td>
+                            <td>A full-stack application for tracking issues</td>
+                            <td>React, TypeScript, Express, MongoDB</td>
+                            <td><div class="project-placeholder">150 x 150</div></td>
+                        </tr>
+                        <tr>
+                            <td>Student Management System</td>
+                            <td>A system for managing student records</td>
+                            <td>Java, Spring Boot</td>
+                            <td><div class="project-placeholder">150 x 150</div></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea><br>
+            <section id="contact" class="section">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
 
-        <button type="submit">Submit</button>
-    </form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
 
-    <footer>
-        <p>
-            <a href="https://github.com/TYehan">GitHub</a>
-            <a href="https://lk.linkedin.com/in/tharinduyehanbandara">LinkedIn</a>
-        </p>
-    </footer>
-</body>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer id="portfolio-footer">
+            <p>Connect with me:</p>
+            <p>
+                <a href="https://github.com/TYehan">GitHub</a> |
+                <a href="https://lk.linkedin.com/in/tharinduyehanbandara">LinkedIn</a>
+            </p>
+        </footer>
+    </body>
 </html>
-

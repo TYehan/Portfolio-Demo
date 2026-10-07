@@ -1,0 +1,106 @@
+/* 1. Basic page styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f0f0f0;
+}
+
+/* 2. Header: an ID styles one specific area */
+#portfolio-header {
+    background-color: #77aa5c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-placeholder {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #cccccc;
+    color: #777777;
+    font-size: 12px;
+    line-height: 120px;
+}
+
+/* 3. A class can give several sections the same style */
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* 4. Project table */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #eeeeee;
+    text-align: left;
+}
+
+th {
+    background-color: #77aa5c;
+    color: white;
+}
+
+.project-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #cccccc;
+    color: #777777;
+    text-align: center;
+    font-size: 10px;
+    line-height: 100px;
+}
+
+/* 5. Contact form */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font: inherit;
+}
+
+button {
+    background-color: #77aa5c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 6. Footer */
+#portfolio-footer {
+    background-color: #77aa5c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
